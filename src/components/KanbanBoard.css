@@ -1,0 +1,73 @@
+/* KanbanBoard.css */
+.kanban-board {
+    display: flex;
+    overflow-x: auto;
+    background-color: #f4f5f7;
+    min-height: calc(100vh - 60px); /* Adjust based on your navbar height */
+}
+
+.kanban-column {
+    min-width: 300px;
+    margin-right: 20px;
+    padding: 16px;
+}
+
+.column-header {
+    display: flex;
+    align-items: center; /* Center align items vertically */
+    justify-content:start;
+     /* Space between title and right icons */
+    margin-bottom: 16px; /* Space below the header */
+}
+
+.column-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    color: #333;
+    margin: 0; /* Remove default margin */
+    margin-right: 10px;
+}
+
+.column-text{
+    display: flex;
+    align-items: center;
+    flex-basis: 80%;
+}
+
+.right-icons {
+    display: flex; /* Arrange right icons in a row */
+}
+
+.right-icon {
+    width: 20px; /* Adjust size as necessary */
+    height: 20px; /* Adjust size as necessary */
+    margin-left: 8px; /* Space between icons */
+}
+
+.user-avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 5px;
+    background-color: #e2e8f0;
+    color: #4a5568;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.dot {
+    position: relative;
+    top: 25px;
+    right: 15px;
+    background-color: grey;
+  }
+  .dot2 {
+    position: relative;
+    top: 25px;
+    right: 15px;
+    background-color: rgb(250, 173, 19);
+  }
